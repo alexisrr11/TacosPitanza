@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Taco Verde - Taquería</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="./index.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body class="font-sans bg-lime-100 text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-[linear-gradient(to_right,#006847_0%,#4b7f4b_50%,#ce1126_100%)] text-white shadow">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <!-- Logo -->
+            <h1 class="text-2xl font-bold">🌮 Taco Verde</h1>
+
+            <!-- Botón hamburguesa (solo visible en móviles) -->
+            <button id="menu-toggle" class="md:hidden text-3xl focus:outline-none">
+                ☰
+            </button>
+
+            <!-- Navegación -->
+            <nav id="menu" class="hidden md:flex space-x-6">
+                <a href="#irMenu" class="hover:underline">Menú</a>
+                <a href="#nosotros" class="hover:underline">Nosotros</a>
+                <a href="#contacto" class="hover:underline">Contacto</a>
+            </nav>
+        </div>
+
+        <!-- Navegación móvil -->
+        <div id="mobile-menu" class="md:hidden hidden px-6 pb-4 space-y-2 bg-green-800">
+            <a href="#menu" class="block hover:underline">Menú</a>
+            <a href="#nosotros" class="block hover:underline">Nosotros</a>
+            <a href="#contacto" class="block hover:underline">Contacto</a>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section id="hero"
+        class="relative h-[90vh] flex items-center justify-center text-center bg-[url('https://www.cocinavital.mx/wp-content/uploads/2018/04/tacos-al-pastor-caseros.jpg')] bg-cover bg-center">
+        <div class="bg-black/50 p-8 rounded-xl">
+            <h2 id="hero-title" class="text-4xl md:text-5xl font-bold text-white">Los mejores tacos de la ciudad 🌮</h2>
+            <p id="hero-text" class="text-lg text-gray-200 mt-4">Auténtico sabor mexicano con ingredientes frescos.</p>
+            <button id="openModal"
+                class="px-8 py-3 mt-6 bg-green-700 text-white rounded-lg shadow hover:bg-green-800 transition">
+                🌶 Ofertas 🌶
+            </button>
+        </div>
+    </section>
+
+
+    <!-- Modal -->
+    <div id="ofertasModal" class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+        <div class="bg-white rounded-2xl shadow-lg w-11/12 md:w-2/3 lg:w-1/2 relative overflow-hidden">
+
+            <!-- Botón cerrar -->
+            <button id="closeModal"
+                class="absolute top-3 right-3 text-gray-600 hover:text-gray-900 text-2xl font-bold z-20">&times;</button>
+
+            <!-- Slider -->
+            <div class="relative w-full overflow-hidden">
+                <div id="slider" class="flex transition-transform duration-500">
+
+                    <!-- Oferta 1 -->
+                    <div class="min-w-full flex flex-col items-center justify-center p-6">
+                        <img src="https://www.elfinanciero.com.mx/resizer/v2/QH5VPPFXDVAQ5IJK7PKZQKPOXI.jpg?smart=true&auth=02c9d05f5fbd"
+                            alt="Oferta 1" class="rounded-xl shadow-lg w-72 h-72 object-cover">
+                        <h2 class="text-xl font-semibold mt-4">2 Tacos al Pastor + Refresco</h2>
+                        <p class="text-gray-600 line-through">Antes: $2500</p>
+                        <p class="text-green-600 font-bold text-lg">Hoy: $1990</p>
+                    </div>
+
+                    <!-- Oferta 2 -->
+                    <div class="min-w-full flex flex-col items-center justify-center p-6">
+                        <img src="https://tacostequila.com/wp-content/uploads/2021/05/tacos-combo.jpg" alt="Oferta 2"
+                            class="rounded-xl shadow-lg w-72 h-72 object-cover">
+                        <h2 class="text-xl font-semibold mt-4">Combo 4 Tacos + 1 Cerveza</h2>
+                        <p class="text-gray-600 line-through">Antes: $5000</p>
+                        <p class="text-green-600 font-bold text-lg">Hoy: $4200</p>
+                    </div>
+
+                    <!-- Oferta 3 -->
+                    <div class="min-w-full flex flex-col items-center justify-center p-6">
+                        <img src="https://www.comedera.com/wp-content/uploads/2022/04/Tacos-de-asada-shutterstock_1667113080.jpg"
+                            alt="Oferta 3" class="rounded-xl shadow-lg w-72 h-72 object-cover">
+                        <h2 class="text-xl font-semibold mt-4">3 Tacos de Asada</h2>
+                        <p class="text-gray-600 line-through">Antes: $3500</p>
+                        <p class="text-green-600 font-bold text-lg">Hoy: $2800</p>
+                    </div>
+                </div>
+
+                <!-- Controles -->
+                <div class="absolute inset-0 flex items-center justify-between px-4">
+                    <button id="prev"
+                        class="bg-gray-800 bg-opacity-50 text-white rounded-full p-3 hover:bg-opacity-80">❮</button>
+                    <button id="next"
+                        class="bg-gray-800 bg-opacity-50 text-white rounded-full p-3 hover:bg-opacity-80">❯</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Nosotros -->
+    <section id="nosotros" class="bg-lime-50 py-16 px-6 w-[90vw] m-auto mt-10 rounded-xl border-2 ">
+        <div class="max-w-4xl mx-auto text-center">
+            <h3 class="text-3xl font-bold text-green-700 mb-6">Sobre Nosotros</h3>
+            <p class="text-lg text-gray-700 leading-relaxed">
+                En <span class="font-semibold">Taco Verde</span> creemos en el sabor auténtico de México.
+                Usamos tortillas recién hechas, carnes jugosas y salsas caseras para que cada taco sea una experiencia
+                única.
+            </p>
+        </div>
+    </section>
+
+    <!-- Menú -->
+    <section id="menu" class="pt-16 px-6 max-w-6xl mx-auto">
+        <h3 id="irMenu" class="text-3xl font-bold text-center mb-10 text-green-700">Nuestro Menú</h3>
+        <!-- Filtros -->
+        <div class="flex flex-wrap justify-center gap-4 mb-10">
+            <button class="filtro bg-green-600 hover:bg-green-800 text-white px-4 py-2 rounded-lg"
+                data-filtro="Todos">Todos</button>
+            <button class="filtro bg-gray-200 hover:bg-gray-300 text-gray-800 px-4 py-2 rounded-lg"
+                data-filtro="Tacos">Tacos</button>
+            <button class="filtro bg-gray-200 hover:bg-gray-300 text-gray-800 px-4 py-2 rounded-lg"
+                data-filtro="Quesadillas">Quesadillas</button>
+            <button class="filtro bg-gray-200 hover:bg-gray-300 text-gray-800 px-4 py-2 rounded-lg"
+                data-filtro="Burritos">Burritos</button>
+            <button class="filtro bg-gray-200 hover:bg-gray-300 text-gray-800 px-4 py-2 rounded-lg"
+                data-filtro="Nachos">Nachos</button>
+            <button class="filtro bg-gray-200 hover:bg-gray-300 text-gray-800 px-4 py-2 rounded-lg"
+                data-filtro="Aguas">Aguas</button>
+            <button class="filtro bg-gray-200 hover:bg-gray-300 text-gray-800 px-4 py-2 rounded-lg"
+                data-filtro="Gaseosas">Gaseosas</button>
+            <button class="filtro bg-gray-200 hover:bg-gray-300 text-gray-800 px-4 py-2 rounded-lg"
+                data-filtro="Cerveza">Cerveza</button>
+        </div>
+        <!-- Contenedor dinámico -->
+        <div class="mb-16">
+            <span id="salado"></span>
+            <div id="menu-salado" class="grid md:grid-cols-1 gap-8"></div>
+        </div>
+        <div class="mb-16">
+            <span id="bebida"></span>
+            <div id="menu-bebida" class="grid md:grid-cols-1 gap-8"></div>
+        </div>
+    </section>
+
+    <!-- Ofertas -->
+    <section id="ofertas-section" class="max-w-6xl mb-16 m-auto px-6 py-10">
+        <h3 id="titulo-ofertas" class="text-3xl font-bold text-center mb-10 text-green-600">
+            Ofertas del Día
+        </h3>
+        <div id="contenedor-ofertas" class="grid md:gap-8 px-6">
+            <!-- Aquí se renderizan ofertas dinámicamente -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contacto" class="bg-green-800 text-white text-center py-10 mt-10">
+        <h3 class="text-2xl font-bold mb-4">Contacto</h3>
+        <p class="mb-2">📍 Av. Sabor Mexicano 456, Ciudad</p>
+        <p class="mb-2">📞 +54 9 11 9876-5432</p>
+        <p class="mb-6">✉️ contacto@tacoverde.com</p>
+
+        <!-- Redes sociales -->
+        <h3 class="text-2xl font-semibold py-4">Síguenos</h3>
+        <div class="flex justify-center gap-6 mb-6 text-3xl">
+            <a href="https://www.facebook.com/" target="_blank" class="hover:text-gray-300">
+                <i class='bg-black/20 border-2 p-2 rounded-full bx bxl-facebook hover:bg-black/50'></i>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank" class="hover:text-gray-300">
+                <i class='bg-black/20 border-2 p-2 rounded-full bx bxl-instagram hover:bg-black/50'></i>
+            </a>
+            <a href="https://www.tiktok.com/" target="_blank" class="hover:text-gray-300">
+                <i class='bg-black/20 border-2 p-2 rounded-full bx bxl-tiktok hover:bg-black/50'></i>
+            </a>
+        </div>
+
+        <p class="text-sm">&copy; 2025 Taco Verde - Taquería auténtica. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- WhatsApp -->
+    <a href="https://wa.me/5491112345678?text=Hola!%20Quiero%20hacer%20un%20pedido" target="_blank"
+        class="fixed right-5 bottom-5 text-4xl">
+        <i class="bg-green-600 rounded-full p-2 bx bxl-whatsapp text-white shadow-lg"></i>
+    </a>
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script>
+        //Close Modal
+        function closeModal() {
+            document.getElementById("modal-ofertas").classList.add("hidden");
+        }
+    </script>
+</body>
+
+</html>

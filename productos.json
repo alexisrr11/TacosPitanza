@@ -1,0 +1,95 @@
+[
+  {
+    "id": "Salados",
+    "categoria": "Tacos",
+    "nombre": "Taco al Pastor",
+    "descripcion": "Cerdo marinado con piña, cebolla y cilantro fresco.",
+    "precio": 1200,
+    "imagen": "https://www.cocinavital.mx/wp-content/uploads/2018/04/tacos-al-pastor-caseros.jpg"
+  },
+  {
+    "id": "Salados",
+    "categoria": "Tacos",
+    "nombre": "Taco de Asada",
+    "descripcion": "Carne asada a la parrilla con cebolla y salsa verde.",
+    "precio": 1300,
+    "imagen": "https://www.comedera.com/wp-content/uploads/2022/04/Tacos-de-asada-shutterstock_1667113080.jpg"
+  },
+  {
+    "id": "Salados",
+    "categoria": "Tacos",
+    "nombre": "Taco de Pollo",
+    "descripcion": "Pollo marinado con especias mexicanas, servido con pico de gallo.",
+    "precio": 1100,
+    "imagen": "https://www.recetasnestle.com.mx/sites/default/files/styles/crop_article_banner_desktop_nes/public/2022-09/tacos-de-pollo.jpg"
+  },
+  {
+    "id": "Salados",
+    "categoria": "Burritos",
+    "nombre": "Burrito de Carne",
+    "descripcion": "Tortilla rellena de carne, frijoles, arroz y salsa roja.",
+    "precio": 1500,
+    "imagen": "https://tacostequila.com/wp-content/uploads/2021/05/tacos-combo.jpg"
+  },
+  {
+    "id": "Salados",
+    "categoria": "Burritos",
+    "nombre": "Burrito Vegano",
+    "descripcion": "Relleno de vegetales salteados, arroz y guacamole fresco.",
+    "precio": 1400,
+    "imagen": "https://www.recetasnestle.com.ec/sites/default/files/styles/crop_article_banner_desktop_nes/public/2022-07/burrito-vegano.jpg"
+  },
+  {
+    "id": "Salados",
+    "categoria": "Quesadillas",
+    "nombre": "Quesadilla de Queso",
+    "descripcion": "Tortilla de maíz rellena de queso derretido.",
+    "precio": 900,
+    "imagen": "https://www.recetasnestle.com.mx/sites/default/files/styles/recipe_detail_desktop/public/srh_recipes/81aa244a8031e7af8eecc65c1dcaf149.jpg"
+  },
+  {
+    "id": "Salados",
+    "categoria": "Quesadillas",
+    "nombre": "Quesadilla de Pollo",
+    "descripcion": "Queso fundido con pollo desmenuzado y salsa casera.",
+    "precio": 1100,
+    "imagen": "https://i0.wp.com/elsouvenir.com/wp-content/uploads/2019/05/quesadilla-pollo-queso.jpg"
+  },
+  {
+    "id": "Salados",
+    "categoria": "Nachos",
+    "nombre": "Nachos Clásicos",
+    "descripcion": "Totopos con queso cheddar fundido y jalapeños.",
+    "precio": 1000,
+    "imagen": "https://www.cocinavital.mx/wp-content/uploads/2017/06/nachos-con-queso.jpg"
+  },
+  {
+    "id": "Salados",
+    "categoria": "Nachos",
+    "nombre": "Nachos con Guacamole",
+    "descripcion": "Totopos con guacamole fresco y salsa mexicana.",
+    "precio": 1200,
+    "imagen": "https://www.goya.com/media/4659/nachos-con-guacamole.jpg"
+  },
+  {
+    "id": "Bebidas",
+    "categoria": "Aguas",
+    "nombre": "Agua Mineral 500cc",
+    "precio": 900,
+    "imagen": "https://www.recetasnestle.com.mx/sites/default/files/styles/recipe_detail_desktop/public/srh_recipes/81aa244a8031e7af8eecc65c1dcaf149.jpg"
+  },
+  {
+    "id": "Bebidas",
+    "categoria": "Gaseosas",
+    "nombre": "Coca-Cola 500cc",
+    "precio": 1100,
+    "imagen": "https://i0.wp.com/elsouvenir.com/wp-content/uploads/2019/05/quesadilla-pollo-queso.jpg"
+  },
+  {
+    "id": "Bebidas",
+    "categoria": "Cerveza",
+    "nombre": "Quilmes 500cc",
+    "precio": 1000,
+    "imagen": "https://www.cocinavital.mx/wp-content/uploads/2017/06/nachos-con-queso.jpg"
+  }
+]
