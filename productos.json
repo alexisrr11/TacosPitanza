@@ -5,7 +5,7 @@
     "nombre": "Taco al Pastor",
     "descripcion": "Cerdo marinado con piña, cebolla y cilantro fresco.",
     "precio": 1200,
-    "imagen": "https://www.cocinavital.mx/wp-content/uploads/2018/04/tacos-al-pastor-caseros.jpg"
+    "imagen": "https://milrecetas.net/wp-content/uploads/2016/09/Tacos-al-pastor-3.jpg"
   },
   {
     "id": "Salados",
@@ -13,7 +13,7 @@
     "nombre": "Taco de Asada",
     "descripcion": "Carne asada a la parrilla con cebolla y salsa verde.",
     "precio": 1300,
-    "imagen": "https://www.comedera.com/wp-content/uploads/2022/04/Tacos-de-asada-shutterstock_1667113080.jpg"
+    "imagen": "https://www.chewoutloud.com/wp-content/uploads/2019/07/carne-asada-tacos-0.jpg"
   },
   {
     "id": "Salados",
@@ -21,7 +21,7 @@
     "nombre": "Taco de Pollo",
     "descripcion": "Pollo marinado con especias mexicanas, servido con pico de gallo.",
     "precio": 1100,
-    "imagen": "https://www.recetasnestle.com.mx/sites/default/files/styles/crop_article_banner_desktop_nes/public/2022-09/tacos-de-pollo.jpg"
+    "imagen": "https://partaste.com/worldrecipes/wp-content/uploads/sites/2/2015/06/tacos_de_pollo.jpg"
   },
   {
     "id": "Salados",
@@ -29,7 +29,7 @@
     "nombre": "Burrito de Carne",
     "descripcion": "Tortilla rellena de carne, frijoles, arroz y salsa roja.",
     "precio": 1500,
-    "imagen": "https://tacostequila.com/wp-content/uploads/2021/05/tacos-combo.jpg"
+    "imagen": "https://cdn.colombia.com/gastronomia/2015/08/31/burrito-de-carne-3236.jpg"
   },
   {
     "id": "Salados",
@@ -37,7 +37,7 @@
     "nombre": "Burrito Vegano",
     "descripcion": "Relleno de vegetales salteados, arroz y guacamole fresco.",
     "precio": 1400,
-    "imagen": "https://www.recetasnestle.com.ec/sites/default/files/styles/crop_article_banner_desktop_nes/public/2022-07/burrito-vegano.jpg"
+    "imagen": "https://www.cilantroandcitronella.com/wp-content/uploads/2018/02/BBQ-Tempeh-Vegan-Burrito-Image.jpg"
   },
   {
     "id": "Salados",
@@ -45,7 +45,7 @@
     "nombre": "Quesadilla de Queso",
     "descripcion": "Tortilla de maíz rellena de queso derretido.",
     "precio": 900,
-    "imagen": "https://www.recetasnestle.com.mx/sites/default/files/styles/recipe_detail_desktop/public/srh_recipes/81aa244a8031e7af8eecc65c1dcaf149.jpg"
+    "imagen": "https://3.bp.blogspot.com/-LkHN9R-A720/XG3t4GFRflI/AAAAAAAARX4/5I6OJ8-xxZAz4WhjtMG6ftHiHLQq65o8QCLcBGAs/s1600/840_560.jpg"
   },
   {
     "id": "Salados",
@@ -53,7 +53,7 @@
     "nombre": "Quesadilla de Pollo",
     "descripcion": "Queso fundido con pollo desmenuzado y salsa casera.",
     "precio": 1100,
-    "imagen": "https://i0.wp.com/elsouvenir.com/wp-content/uploads/2019/05/quesadilla-pollo-queso.jpg"
+    "imagen": "https://www.panchovilla.cl/wp-content/uploads/2022/07/Quesadilla-de-pollo-1024x683.jpg"
   },
   {
     "id": "Salados",
@@ -61,7 +61,7 @@
     "nombre": "Nachos Clásicos",
     "descripcion": "Totopos con queso cheddar fundido y jalapeños.",
     "precio": 1000,
-    "imagen": "https://www.cocinavital.mx/wp-content/uploads/2017/06/nachos-con-queso.jpg"
+    "imagen": "https://image.freepik.com/foto-gratis/nachos-clasicos-carne-molida-chiles-jalapenos-frescos_198639-54568.jpg"
   },
   {
     "id": "Salados",
@@ -69,27 +69,27 @@
     "nombre": "Nachos con Guacamole",
     "descripcion": "Totopos con guacamole fresco y salsa mexicana.",
     "precio": 1200,
-    "imagen": "https://www.goya.com/media/4659/nachos-con-guacamole.jpg"
+    "imagen": "https://www.panchovilla.cl/wp-content/uploads/2022/07/Nachos-con-guacamole.jpg"
   },
   {
     "id": "Bebidas",
     "categoria": "Aguas",
     "nombre": "Agua Mineral 500cc",
     "precio": 900,
-    "imagen": "https://www.recetasnestle.com.mx/sites/default/files/styles/recipe_detail_desktop/public/srh_recipes/81aa244a8031e7af8eecc65c1dcaf149.jpg"
+    "imagen": "https://images.tcdn.com.br/img/img_prod/858764/agua_crystal_500ml_c_12_125_1_a26927dc99c2653019b71f1ee44e98be.jpg"
   },
   {
     "id": "Bebidas",
     "categoria": "Gaseosas",
     "nombre": "Coca-Cola 500cc",
     "precio": 1100,
-    "imagen": "https://i0.wp.com/elsouvenir.com/wp-content/uploads/2019/05/quesadilla-pollo-queso.jpg"
+    "imagen": "https://duranalmacen.com.ar/wp-content/uploads/2021/09/Gaseosa-Coca-Cola-500-Cc-COCA-COLA-X500ML-1-3024.jpg"
   },
   {
     "id": "Bebidas",
     "categoria": "Cerveza",
     "nombre": "Quilmes 500cc",
     "precio": 1000,
-    "imagen": "https://www.cocinavital.mx/wp-content/uploads/2017/06/nachos-con-queso.jpg"
+    "imagen": "https://jumboargentina.vtexassets.com/arquivos/ids/433489/Quilmes-Clasica-500-Ml-3-238982.jpg?v=636517616908070000"
   }
 ]
