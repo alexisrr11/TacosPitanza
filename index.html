@@ -72,7 +72,7 @@
 
                     <!-- Oferta 1 -->
                     <div class="min-w-full flex flex-col items-center justify-center p-6">
-                        <img src="https://www.elfinanciero.com.mx/resizer/v2/QH5VPPFXDVAQ5IJK7PKZQKPOXI.jpg?smart=true&auth=02c9d05f5fbd"
+                        <img src="https://placeralplato.com/files/2015/09/Tacos-al-pastor.jpg"
                             alt="Oferta 1" class="rounded-xl shadow-lg w-72 h-72 object-cover">
                         <h2 class="text-xl font-semibold mt-4">2 Tacos al Pastor + Refresco</h2>
                         <p class="text-gray-600 line-through">Antes: $2500</p>
@@ -81,7 +81,7 @@
 
                     <!-- Oferta 2 -->
                     <div class="min-w-full flex flex-col items-center justify-center p-6">
-                        <img src="https://tacostequila.com/wp-content/uploads/2021/05/tacos-combo.jpg" alt="Oferta 2"
+                        <img src="https://www.petalatino.com/wp-content/uploads/Screen-Shot-2021-07-19-at-11.44.11-AM.png" alt="Oferta 2"
                             class="rounded-xl shadow-lg w-72 h-72 object-cover">
                         <h2 class="text-xl font-semibold mt-4">Combo 4 Tacos + 1 Cerveza</h2>
                         <p class="text-gray-600 line-through">Antes: $5000</p>
@@ -90,7 +90,7 @@
 
                     <!-- Oferta 3 -->
                     <div class="min-w-full flex flex-col items-center justify-center p-6">
-                        <img src="https://www.comedera.com/wp-content/uploads/2022/04/Tacos-de-asada-shutterstock_1667113080.jpg"
+                        <img src="https://kitchenfunwithmy3sons.com/wp-content/uploads/2023/02/DSC_1926-700x1052.jpg"
                             alt="Oferta 3" class="rounded-xl shadow-lg w-72 h-72 object-cover">
                         <h2 class="text-xl font-semibold mt-4">3 Tacos de Asada</h2>
                         <p class="text-gray-600 line-through">Antes: $3500</p>
@@ -163,6 +163,20 @@
             <!-- Aquí se renderizan ofertas dinámicamente -->
         </div>
     </section>
+
+    <!-- MODAL -->
+    <div id="modal-ofertas" class="fixed inset-0 bg-black/50 hidden flex items-center justify-center px-8 z-50">
+        <div class="bg-white rounded-2xl shadow-lg max-w-md w-full p-6 relative">
+            <button onclick="closeModal()" class="absolute top-3 right-3 text-gray-500 hover:text-red-600 text-xl">
+                &times;
+            </button>
+            <!-- CONTENIDO DEL MODAL -->
+            <h2 class="text-2xl font-bold text-center text-red-600 mb-4">🔥 Ofertas del Día 🔥</h2>
+            <ul id="lista-ofertas" class="space-y-3 text-gray-700">
+                <!-- Aquí se renderizan ofertas dinámicamente -->
+            </ul>
+        </div>
+    </div>
 
     <!-- Footer -->
     <footer id="contacto" class="bg-green-800 text-white text-center py-10 mt-10">
