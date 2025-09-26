@@ -9,22 +9,22 @@ toggle.addEventListener("click", () => {
 // Array de slides
 const slides = [
   {
-    image: "https://www.goya.com/media/4659/nachos-con-guacamole.jpg",
+    image: "https://www.panchovilla.cl/wp-content/uploads/2022/07/Nachos-con-guacamole.jpg",
     title: "Deliciosos Nachos con Guacamole",
     text: "Totopos crujientes con guacamole fresco y salsa mexicana."
   },
   {
-    image: "https://www.recetasnestle.com.mx/sites/default/files/styles/recipe_detail_desktop/public/shr_recipes/81aa244a8031e7af8eecc65c1dcaf149.jpg",
+    image: "https://www.panchovilla.cl/wp-content/uploads/2022/07/Quesadilla-de-pollo-1024x683.jpg",
     title: "Quesadillas irresistibles",
     text: "Tortilla rellena de queso y tus ingredientes favoritos."
   },
   {
-    image: "https://www.simplyrecipes.com/thmb/8pWfR8yU0iCXqfVYhUUn0bRar0Y=/2000x1333/filters:fill(auto,1)/Simply-Recipes-Beef-Burrito-LEAD-5-f8b1dfd13db74f4c8d17886d6eb6d8e1.jpg",
+    image: "https://cdn.colombia.com/gastronomia/2015/08/31/burrito-de-carne-3236.jpg",
     title: "Burritos llenos de sabor",
     text: "Tortilla gigante rellena de carne, arroz, frijoles y vegetales."
   },
   {
-    image: "https://www.goya.com/media/4659/nachos-con-guacamole.jpg",
+    image: "https://cocinarrecetasdepostres.net/po/wp-content/uploads/2020/06/Todos-os-nachos.jpg",
     title: "Más Nachos para todos",
     text: "Perfectos para compartir con amigos y acompañar con salsa casera."
   }
